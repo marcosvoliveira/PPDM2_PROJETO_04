@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-const request = "https://api.hgbrasil.com/finance?key=1f5ede50";
+const request = "https://api.hgbrasil.com/finance";
 
 void main() async {
   print(await pegarDados());
